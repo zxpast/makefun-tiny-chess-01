@@ -12,6 +12,8 @@ A working entry to fork: `main.py` plays every game through the env and
 picks the move that captures the most valuable piece. It is a template,
 not a contender. Replace its one-line choice with a real search.
 
+Engine: 0x88 alpha-beta + quiescence, 75.000 nodes/move; entrypoint di-pack dengan kit makefun compress dari eng2_75k.py.
+
 ## The size rule
 
 - `main.py` is the whole engine: at most 4,096 bytes as committed,
